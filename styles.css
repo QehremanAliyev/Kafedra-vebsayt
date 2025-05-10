@@ -1,0 +1,195 @@
+/* Yeni Login səhifəsi üçün CSS */
+.login-container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f9f9f9;
+  flex-direction: column;
+  gap: 20px;
+  }
+
+.login-container h2 {
+  color: #333;
+}
+
+.login-container form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 300px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius:10px;
+  box-shadow: -15px 15px 10px rgba(0, 0, 0, 0.1);
+}
+
+.login-container label {
+  font-size: 14px;
+  color: #333;
+}
+
+.login-container input {
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.login-container button {
+  background-color: #f06292;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.login-container button:hover {
+  background-color: #d45c86;
+}
+
+/* Əsas səhifə */
+.container {
+  display: none; /* Əvvəlcə gizli olacaq */
+  width: 80%;
+  margin: auto;
+  padding-top: 20px;
+}
+
+footer {
+  text-align: center;
+  margin-top: 50px;
+}
+
+footer p {
+  color: #0c0c0c;
+  font-size: 25px;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  padding-top: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #3e3e3e;
+  font-size: 2.5em;
+  letter-spacing: 1px;
+  margin-bottom: 30px;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+}
+
+.dropdown-btn {
+  background-color: #ffffff;
+  color: #333;
+  padding: 15px;
+  text-align: left;
+  width: 100%;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  font-size: 17px;
+  font-weight: bold;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  margin: 5px 0;
+  border-radius: 15px;
+  box-shadow: -15px 15px 10px rgba(0, 0, 0, 0.1);
+}
+
+.dropdown-btn:hover {
+  background-color: #fcfcfc;
+  transform: translateX(-20px);
+}
+
+.dropdown-content {
+  display: none;
+  background-color: #ffffff;
+  padding: 15px;
+  margin-top: 5px;
+  border-left: 4px solid #f06292;
+  border-radius: 15px;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.dropdown-content p {
+  color: #555;
+  font-size: 16px;
+}
+
+footer {
+  text-align: center;
+  margin-top: 50px;
+}
+
+footer p {
+  color: #0c0c0c;
+  font-size: 25px;
+}
+
+footer p a {
+  color: #f06292;
+  text-decoration: none;
+}
+
+footer p a:hover {
+  text-decoration:double;
+}
+
+.aydin{
+  width:100px ;
+  border-radius: 50px;
+}
+
+.dropdown-content ul {
+padding: 0;
+margin: 0;
+list-style-type: none;
+}
+
+.dropdown-content li {
+font-size: 16px;
+color: #555;
+padding: 8px 0;
+border-bottom: 1px solid #ddd;
+}
+
+.dropdown-content li:last-child {
+border-bottom: none;
+}
+
+#username,#password {
+  font-size: 16px; /* Yazı ölçüsünü dəyişmək */
+  color: #000000; /* Yazı rəngini dəyişmək */
+  font-family: Arial, sans-serif; /* Yazı tipini dəyişmək */
+  border: 1px solid #b6b5b5; /* Sərhəd əlavə etmək */
+  padding: 8px; /* İçerik boşluğu əlavə etmək */
+  border-radius: 10px; /* Küncləri yuvarlaqlaşdırmaq */
+}
+
+label[for="username"], label[for="password"] {
+  font-size: 15px; /* Yazı ölçüsünü dəyişdirin */
+  font-weight:lighter; /* Yazını qalın etmək (istəyə bağlı) */
+}
+
